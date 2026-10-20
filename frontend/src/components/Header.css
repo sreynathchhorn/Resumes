@@ -1,0 +1,32 @@
+/* Container for the brand area in the header */
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-decoration: none;
+}
+
+/* Make the script logo larger */
+.script-logo-img {
+  height: 42px; /* Increased height to make it larger and clearer */
+  width: auto;
+  object-fit: contain;
+}
+
+/* Group container for the purple flower and text */
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand-symbol {
+  color: #7c3aed;
+  font-size: 1.25rem;
+}
+
+.brand-text {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
